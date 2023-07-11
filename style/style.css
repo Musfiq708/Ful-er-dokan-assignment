@@ -28,6 +28,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 
 .mainhead-pic {
@@ -224,6 +225,7 @@ body {
     font-weight: 700;
     line-height: normal;
     margin-left: 220px;
+    cursor: pointer;
 }
 
 .instagram {
@@ -333,6 +335,7 @@ form>input {
     background: #E55473;
     border: none;
     align-items: center;
+    cursor: pointer;
 }
 
 .forminput {
