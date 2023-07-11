@@ -79,7 +79,7 @@ body {
 
 .sec-one {
     width: 1920px;
-    height: 4867px;
+    height: 1300px;
     background-color: #FFF;
 }
 
@@ -129,11 +129,98 @@ body {
     height: 471px;
     padding: 67px 75px 0px 75px;
 }
-.teda{
+
+.teda {
     background: rgba(71, 125, 17, 0.15);
 }
-.half-circle{
+
+.half-circle {
     display: flex;
     justify-content: space-evenly;
     margin-right: 120px;
+}
+
+.support {
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px 128px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.support-tag {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.support-one {
+    text-align: center;
+}
+
+/* hot deal part */
+.sec-two {
+    width: 100%;
+    height: 620px;
+    flex-shrink: 0;
+    background-color: aquamarine;
+}
+
+.sec-two-head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.sec-two-pic-img {
+    width: 318px;
+    height: 420px;
+    margin-top: 100;
+    margin-right: 429;
+    margin-bottom: 100px;
+
+}
+
+.sec-two-body-h {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.off {
+    color: #E55473;
+}
+
+.sec-two-head-pera {
+    text-align: center;
+}
+
+.sec-two-head-btn {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 220px;
 }
