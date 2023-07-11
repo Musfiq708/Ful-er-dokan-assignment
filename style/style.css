@@ -171,7 +171,8 @@ body {
     width: 100%;
     height: 620px;
     flex-shrink: 0;
-    background-color: aquamarine;
+    background: rgba(229, 84, 115, 0.05);
+
 }
 
 .sec-two-head {
@@ -223,4 +224,171 @@ body {
     font-weight: 700;
     line-height: normal;
     margin-left: 220px;
+}
+
+.instagram {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-pera {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.insta {
+    margin-top: 128px;
+}
+
+.insta-potrait-pics {
+    width: 342px;
+    height: 396px;
+}
+
+.insta-potrait {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    background-image: url('vaacard.png');
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin: 128px 240px;
+}
+
+.card-text-head {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.card-text-body {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.card-text {
+    padding-top: 122px;
+}
+
+.formal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form>input {
+
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    padding-left: 22px;
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+.last-btn {
+    margin-top: 40px;
+    padding-top: 18.29px;
+    height: 27.429px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    align-items: center;
+}
+
+.forminput {
+    padding-left: 3px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #111010;
+    width: 100% auto;
+    height: 449px;
+}
+
+.flowersop {
+    color:#FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top:  128px;
+}
+.flower{
+    color: #E55473;
+}
+.flowersop-p1{
+width: 625px;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-left: 600px;
+margin-top: 24px;
+}
+.foot{
+    text-align: center;
+    align-items: center;
+  
+}
+.flowersop-p2{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 30px;
+margin-left: 25px;
 }
