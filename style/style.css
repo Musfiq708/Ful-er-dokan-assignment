@@ -76,12 +76,64 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-.sec-one{
+
+.sec-one {
     width: 1920px;
     height: 4867px;
     background-color: #FFF;
 }
-.sec-one-head{
+
+.sec-one-head {
     margin-top: 178px;
-    margin-bottom: 3791px;
+    margin-bottom: 40px;
+}
+
+.first-circle {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+    margin: 0px;
+}
+
+.pink-flr {
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 76px;
+}
+
+.pink-link {
+    color: #272727;
+    padding: 120px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+.mix {
+    width: 370px;
+    height: 370px;
+    margin-bottom: 60px;
+}
+
+.reda {
+    background-color: rgba(5, 151, 160, 0.15)
+}
+
+.tix {
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
+}
+.teda{
+    background: rgba(71, 125, 17, 0.15);
+}
+.half-circle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 120px;
 }
